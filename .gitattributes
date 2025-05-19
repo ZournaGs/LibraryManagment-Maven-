@@ -8,3 +8,5 @@ src/main/resources/**/*.sql linguist-language=SQL
 # Ensure they are not ignored as vendored or generated files
 src/main/resources/*.sql linguist-vendored=false linguist-generated=false
 src/main/resources/**/*.sql linguist-vendored=false linguist-generated=false
+ # Force GitHub to treat all .sql files in DBbackup and subdirectories as SQL
+ DBbackup/**/*.sql linguist-language=SQL linguist-vendored=false linguist-generated=false
