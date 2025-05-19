@@ -4,8 +4,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 public class DBtest {
     private static final String URL = "jdbc:postgresql://localhost:5432/librarymanagment";
-    private static final String USER = "postgres";
-    private static final String PASSWORD = "G20028910@z";
+    private static final String USER = "libraryuser";
+    private static final String PASSWORD = "LibraryManagment2025!";
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
