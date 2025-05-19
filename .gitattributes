@@ -1,0 +1,10 @@
+# Recognize all .sql files as SQL
+*.sql linguist-language=SQL
+
+# Specifically include SQL files in src/main/resources
+src/main/resources/*.sql linguist-language=SQL
+src/main/resources/**/*.sql linguist-language=SQL
+
+# Ensure they are not ignored as vendored or generated files
+src/main/resources/*.sql linguist-vendored=false linguist-generated=false
+src/main/resources/**/*.sql linguist-vendored=false linguist-generated=false
