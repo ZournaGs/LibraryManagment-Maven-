@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/DBbackup/CONSTRAINTS/FOREIGN_KEYS.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/DBbackup/ENUMS/TRANSACTION_TYPE.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/DBbackup/TABLES/BOOKS.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/DBbackup/TABLES/TRANSACTIONS.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/DBbackup/TABLES/USERS.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/DBbackup/CONSTRAINTS/FOREIGN_KEYS.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/DBbackup/ENUMS/TRANSACTION_TYPE.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/DBbackup/TABLES/BOOKS.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/DBbackup/TABLES/TRANSACTIONS.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/DBbackup/TABLES/USERS.sql" dialect="GenericSQL" />
   </component>
 </project>
